@@ -1,2 +1,3 @@
-# Predictive-Model-Building-
-Predictive model for the probability of Death using Logistic Regression and KNN 
+In this repository there are two codes. In the first part we are predicting 'Heart Volume' of the person with Variables 'Male' (Categorical), 'Age', 'Height' & 'Weight'. Linear regression is being used for the purpose with 'Least Squares' and 'Least Absolute Deviations' as the loss functions separately. A 10 fold cross valiadtion is performed to examine the power of the predictive models with different performance metrics.   
+
+In the second part the response variable is a categorical (binary). List of patient data is given with different variables which are used to predict whether it results in the death of the patient. Hence we build the model using logistic regression and KNN. 10 fold Cross Validation with the Validation set approach is used to estimate the test error of the models.
